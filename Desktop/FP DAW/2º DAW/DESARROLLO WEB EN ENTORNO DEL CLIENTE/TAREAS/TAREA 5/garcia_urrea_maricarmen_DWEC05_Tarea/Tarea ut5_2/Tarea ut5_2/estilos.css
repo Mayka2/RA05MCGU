@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, #4a90e2, #ff99cc, #ffffff);
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-size: 20px;
+}
+.contenedor {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta-articulo {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(180, 11, 248, 0.2);
+    padding: 15px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.articulo-nombre {
+font-size: 1.5rem;
+margin-bottom: 10px;
+font-family:'Courier New', Courier, monospace;
+}
+
+.articulo-imagen {
+width: 70%;
+height: 350px;
+margin-bottom: 10px;
+display: block;
+margin: 0 auto 10px auto;
+}
+
+.articulo-descripcion {
+font-size: 0.9rem;
+margin-bottom: 10px;
+font-weight:bold;
+font-family:'Courier New', Courier, monospace;
+font-size: 1rem;
+}
+
+.articulo-precio {
+font-weight: bold;
+color: #be07f0;
+font-size: 1.5rem;
+font-family:'Courier New', Courier, monospace;
+}
