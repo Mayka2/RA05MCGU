@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4a90e2, #ff99cc, #ffffff);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Zona de formulario */
+input {
+  margin: 5px;
+  padding: 5px 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* Mensajes */
+.mensaje {
+  min-height: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: darkred;
+}
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
